@@ -1,0 +1,27 @@
+
+.container {
+  margin: 0 auto;
+  min-width: 500px;
+  width: 80%;
+  height: 100%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.add {
+  outline: 0;
+  width: 34%;
+  height: 36px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+
+.col {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Цвет фона */
+  color: white; /* Цвет текста */
+  padding: 5px; /* Поля вокруг текста */
+}
