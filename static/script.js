@@ -1,5 +1,5 @@
 $(document).on('click', '.add', function() {
-  my_url = "http://localhost:8080/api/forecasts"
+  my_url = "http://api/forecasts"
   $.getJSON(my_url, function(data) {
     paragraphs = data["prophecies"]
   })
